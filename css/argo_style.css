@@ -41,13 +41,17 @@ label {
   margin: 2em 0 4em 0;
   text-align: center;
 }
-
+.member-list {
+  margin-bottom: 5em ;
+}
 .member-item {
   padding: 0.25em 0;
+  width: 33%;
+  float: left;
 }
 
 footer {
-  margin-top: 2em;
+  margin-top: 5em;
   text-align: center;
   color: #fff;
   background: #f76c6c;

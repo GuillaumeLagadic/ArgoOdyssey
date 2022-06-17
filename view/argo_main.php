@@ -8,7 +8,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="./css/argo_style.css" >
 
-    <title>Jeux vidéos</title>
+    <title>Argo Odyssey</title>
   </head>
     <!-- Header section -->
 <header>
