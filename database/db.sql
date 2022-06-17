@@ -1,7 +1,16 @@
+--
+-- Base de données : `argonauts`
+--
 
-create database argonauts;
+CREATE DATABASE `argonauts`;
 
-CREATE TABLE argonauts (
-    id      integer primary key auto_increment,
-    Name     varchar(15)
-) ENGINE InnoDB;
+--
+-- Structure de la table `argonauts`
+--
+
+
+DROP TABLE IF EXISTS `argonauts`;
+CREATE TABLE `argonauts` (
+    `id`      int(10) UNSIGNED NOT NULL primary key auto_increment,
+    `Nom`     varchar(15)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
