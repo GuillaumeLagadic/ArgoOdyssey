@@ -22,7 +22,7 @@ if (!empty($_POST) && isset($_POST['insertArgonaut'])) {
 
     // Insertion en DB de l'Argonaute
     $insertQuery = "
-        INSERT INTO argonauts (name)
+        INSERT INTO argonauts (Nom)
         VALUES ('{$name}')
     ";
     // Objectif : exécuter la requête qui insère les données

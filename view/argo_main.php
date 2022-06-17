@@ -1,5 +1,15 @@
 <!doctype html>
 <html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./css/argo_style.css" >
+
+    <title>Jeux vidéos</title>
+  </head>
     <!-- Header section -->
 <header>
   <h1>
@@ -13,7 +23,7 @@
   
   <!-- New member form -->
   <h2>Ajouter un(e) Argonaute</h2>
-  <form class="new-member-form">
+  <form class="new-member-form" action="index.php" method="post">
     <label for="name">Nom de l&apos;Argonaute</label>
     <input id="name" name="name" type="text" placeholder="Charalampos" />
     <button name="insertArgonaut" type="submit" class>Envoyer</button>
@@ -23,7 +33,7 @@
   <h2>Membres de l'équipage</h2>
   <section class="member-list">
     <?php foreach($argonautList as $argonaut) : ?>
-    <div class="member-item"><?= $argonaut['id'] ?>. <?= $argonaut['name'] ?></div>
+    <div class="member-item"><?= $argonaut ?></div>
     <?php endforeach; ?>
   </section>
 </main>
